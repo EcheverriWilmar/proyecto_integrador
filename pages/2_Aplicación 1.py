@@ -8,11 +8,11 @@ st.header("Aplicación 1")
 client = None
 input_message = ""
 
-db.create_database()
-#db.add_setting("","","","")
+# db.create_database()
+db.add_setting("","","","")
 
 setting = db.get_setting()
-#st.write(setting)
+st.write(setting)
 
 
 
